@@ -85,9 +85,9 @@ requestAnimationFrame(raf)
         
         <Description />
         <Section />
-        <div className='h-screen flex items-center justify-center text-7xl p-20 flex-col ' style={myFont.style}>
-          <div>Excited???</div>  <div className=" flex w-full justify-center gap-2">Tweet @ the nearest  <Image src={buildspace} alt="buildspace" /> member.</div>
-          <div className="text-4xl"> Lets speedrun the building process </div>
+        <div className='h-screen flex items-center justify-center md:text-7xl p-20 flex-col text-4xl ' style={myFont.style}>
+          <div>Excited???</div>  <div className=" flex w-full justify-center gap-2 flex-col md:flex-row items-center "><p className="text-center">Tweet @ the nearest</p>  <Image src={buildspace} alt="buildspace" /> member.</div>
+          <div className="text-4xl text-center"> Lets speedrun the building process </div>
         </div>
       </div>
     </main>
